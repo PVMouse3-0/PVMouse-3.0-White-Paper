@@ -68,7 +68,7 @@ PVMouse 3.0（Panoramic Virtual Mouse V3.0）提出以虚拟小鼠为起点，�
 
 建议引用：Zou, Dayuan, and Y. S. (2026). *PVMouse 3.0: Design and Development Path for a Biological World Model*. Nanjing Singularity Biotech Co., Ltd. November 2026. White paper. 机器可读引用信息见 [CITATION.cff](CITATION.cff)。
 
-欢迎通过 [Issues](https://github.com/PVMouse/PVMouse-3.0-White-Paper/issues) 提供方法讨论、文档勘误和合作建议；具体说明见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+欢迎通过 [Issues](https://github.com/PVMouse3-0/PVMouse-3.0-White-Paper/issues) 提供方法讨论、文档勘误和合作建议；具体说明见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 作者邮箱：[dayuanz4005@outlook.com](mailto:dayuanz4005@outlook.com)、[syan0328@outlook.com](mailto:syan0328@outlook.com)。
 
