@@ -18,6 +18,12 @@ The initial scope is **C57BL/6J mice**, covering the **brain, heart, liver, skel
 
 > **Project status:** This repository publishes the white paper and companion documentation. The paper reports that some algorithmic components have been built and data cleaning is underway; the complete system remains to be completed and validated. This repository does not include executable model code, trained weights or research datasets. Capabilities described below are research objectives, not validated performance claims.
 
+## Biological state space
+
+![Figure 2: Multiscale observations constrain a biological state, from which conditional untreated and intervention trajectories are illustrated.](assets/figures/figure-02-biological-state-space.svg)
+
+**Figure 2 — From multiscale observations to biological state trajectories** ([white paper, p. 25](PVMouse-3.0-White-Paper.pdf#page=25) · [Open SVG](assets/figures/figure-02-biological-state-space.svg)). Transcriptomic, cellular, tissue and biochemical observations jointly inform state estimation. Observed history and alternative predicted trajectories are distinguished. This is a conceptual illustration: readouts, regions and trajectories are schematic, and surface elevation has no physical units.
+
 ## The central research question
 
 **Does adding cellular, spatial and multi-organ information improve predictions of molecular responses and functional outcomes under defined perturbations, compared with simpler alternatives?**
@@ -31,17 +37,9 @@ The proposed framework is organized around four capabilities:
 
 ## Proposed architecture
 
-```mermaid
-flowchart LR
-    A["Molecular priors<br/>Gene networks and pathways"] --> B["Cell-state references<br/>Mouse-adapted cell representations"]
-    B --> C["Spatial virtual organs<br/>Cells → regions → organs"]
-    C --> D["Joint multi-organ state<br/>Organ relationships and dynamics"]
-    E["Background, genetic conditions<br/>History and prediction window"] --> D
-    D --> F["Predicted expression<br/>Physiology and pathology"]
-    F --> G["Independent experiments<br/>Uncertainty and model revision"]
-    G -.-> B
-    G -.-> D
-```
+![Figure 4: Gene priors, cell-state references, spatial virtual organs and a joint multi-organ model connect observations to expression, phenotype and temporal predictions.](assets/figures/figure-04-computational-architecture.svg)
+
+**Figure 4 — Four-layer computational architecture** ([white paper, p. 41](PVMouse-3.0-White-Paper.pdf#page=41) · [Open SVG](assets/figures/figure-04-computational-architecture.svg)). Molecular priors inform a mouse-adapted cell reference, spatial organ models and a joint multi-organ system. Target-time expression/phenotype prediction and temporal modeling are initial MVP objectives. This diagram describes the proposed architecture; the complete system remains to be completed and validated.
 
 | Layer | Role |
 | --- | --- |
@@ -87,6 +85,7 @@ Drug, dietary and environmental tasks require their own response data, treatment
 
 - [White paper PDF](PVMouse-3.0-White-Paper.pdf): the complete source document, including figures and references.
 - [Reading guide](READING_GUIDE.md): chapter topics and PDF page numbers.
+- [Selected figures](assets/figures/README.md): original SVG artwork, source filenames and figure/page references.
 - [Architecture](ARCHITECTURE.md): a concise technical companion.
 - [Development path](DEVELOPMENT.md): stages, dependencies and evaluation objectives.
 - [中文说明](README.zh-CN.md): Chinese-language overview.
