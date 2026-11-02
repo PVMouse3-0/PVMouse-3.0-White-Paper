@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "Please cite the PVMouse 3.0 white paper using the preferred citation below."
+title: "PVMouse 3.0: Design and Development Path for a Biological World Model"
+authors:
+  - family-names: "Zou"
+    given-names: "Dayuan"
+    affiliation: "Nanjing Singularity Biotech Co., Ltd."
+  - name: "Y. S."
+repository-code: "https://github.com/PVMouse/PVMouse-3.0-White-Paper"
+url: "https://github.com/PVMouse/PVMouse-3.0-White-Paper"
+abstract: >-
+  A white paper proposing PVMouse 3.0, a minimum viable biological world model
+  starting with C57BL/6J mice. The design connects molecular priors, cell-state
+  representations, spatial organs and joint multi-organ dynamics to study
+  intervention responses and functional outcomes. The complete system remains
+  to be completed and validated.
+keywords:
+  - biological world model
+  - virtual mouse
+  - multiscale modeling
+  - perturbation prediction
+  - spatial transcriptomics
+preferred-citation:
+  type: report
+  title: "PVMouse 3.0: Design and Development Path for a Biological World Model"
+  authors:
+    - family-names: "Zou"
+      given-names: "Dayuan"
+    - name: "Y. S."
+  institution:
+    name: "Nanjing Singularity Biotech Co., Ltd."
+  year: 2026
+  month: 11
+  url: "https://github.com/PVMouse/PVMouse-3.0-White-Paper"
