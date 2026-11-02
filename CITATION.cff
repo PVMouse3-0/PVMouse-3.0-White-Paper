@@ -6,8 +6,8 @@ authors:
     given-names: "Dayuan"
     affiliation: "Nanjing Singularity Biotech Co., Ltd."
   - name: "Y. S."
-repository-code: "https://github.com/PVMouse/PVMouse-3.0-White-Paper"
-url: "https://github.com/PVMouse/PVMouse-3.0-White-Paper"
+repository-code: "https://github.com/PVMouse3-0/PVMouse-3.0-White-Paper"
+url: "https://github.com/PVMouse3-0/PVMouse-3.0-White-Paper"
 abstract: >-
   A white paper proposing PVMouse 3.0, a minimum viable biological world model
   starting with C57BL/6J mice. The design connects molecular priors, cell-state
@@ -31,4 +31,4 @@ preferred-citation:
     name: "Nanjing Singularity Biotech Co., Ltd."
   year: 2026
   month: 11
-  url: "https://github.com/PVMouse/PVMouse-3.0-White-Paper"
+  url: "https://github.com/PVMouse3-0/PVMouse-3.0-White-Paper"
