@@ -18,6 +18,12 @@ PVMouse 3.0（Panoramic Virtual Mouse V3.0）提出以虚拟小鼠为起点，�
 
 > **当前状态：** 本仓库发布白皮书和配套说明文件。根据白皮书，项目已构建部分算法组件，正在清洗已收集数据；完整系统仍待完成与验证。本仓库不包含可运行模型、训练权重或研究数据集。文中预测能力与应用场景属于研究目标，不代表已经验证的性能。
 
+## 生物状态空间
+
+![图 2：多尺度观测共同约束生物状态，并区分已观测历史、未处理预测和不同干预条件下的候选轨迹。](assets/figures/figure-02-biological-state-space.svg)
+
+**图 2：从多尺度观测到生物状态轨迹**（[白皮书第 25 页](PVMouse-3.0-White-Paper.pdf#page=25) · [查看 SVG 原图](assets/figures/figure-02-biological-state-space.svg)）。转录组、细胞组成、组织结构与生化读出共同支持状态估计，再比较给定条件下的候选轨迹。本图为概念示意，读出、状态区域与轨迹均为示意，曲面高度没有物理单位。
+
 ## 核心科学问题
 
 相对于简单基线，增加细胞、空间和多器官信息，是否能够提高特定干预条件下分子响应与功能结果的预测能力？
@@ -25,6 +31,10 @@ PVMouse 3.0（Panoramic Virtual Mouse V3.0）提出以虚拟小鼠为起点，�
 白皮书提出四类目标能力：当前生物状态估计、给定时间范围内的状态变化预测、不同干预条件下的响应比较，以及不确定性估计与后续实验选择。因果效应与个体反事实的解释需要相应实验设计和可识别性假设支持。
 
 ## 四层架构
+
+![图 4：基因先验、细胞状态参考、空间虚拟器官与多器官系统连接观测数据、表达和表型预测及时间变化建模。](assets/figures/figure-04-computational-architecture.svg)
+
+**图 4：四层计算架构**（[白皮书第 41 页](PVMouse-3.0-White-Paper.pdf#page=41) · [查看 SVG 原图](assets/figures/figure-04-computational-architecture.svg)）。分子先验依次连接适配小鼠的细胞参考、空间器官模型和多器官联合系统。目标时点的表达与表型预测以及时间建模属于初始 MVP 目标。本图展示拟议架构，完整系统仍待完成与验证。
 
 | 层级 | 主要作用 |
 | --- | --- |
@@ -65,6 +75,8 @@ PVMouse 3.0（Panoramic Virtual Mouse V3.0）提出以虚拟小鼠为起点，�
 ## 阅读、引用与协作
 
 完整论证、图示、方程和参考文献请以 [PDF](PVMouse-3.0-White-Paper.pdf) 为准；本文件为中文概览，并非全文翻译。章节定位见 [READING_GUIDE.md](READING_GUIDE.md)。
+
+两张精选图使用本地原始 SVG，源文件名与对应页码见 [图示说明](assets/figures/README.md)。
 
 建议引用：Zou, Dayuan, and Y. S. (2026). *PVMouse 3.0: Design and Development Path for a Biological World Model*. Nanjing Singularity Biotech Co., Ltd. November 2026. White paper. 机器可读引用信息见 [CITATION.cff](CITATION.cff)。
 
