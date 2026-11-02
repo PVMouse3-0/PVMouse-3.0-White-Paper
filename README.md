@@ -108,13 +108,13 @@ Zou, Dayuan, and Y. S. (2026). *PVMouse 3.0: Design and Development Path for a B
   year        = {2026},
   month       = nov,
   type        = {White paper},
-  url         = {https://github.com/PVMouse/PVMouse-3.0-White-Paper}
+  url         = {https://github.com/PVMouse3-0/PVMouse-3.0-White-Paper}
 }
 ```
 
 ## Discussion and contact
 
-Methodological feedback, data/model collaboration and joint experiments are welcome. Please use [GitHub Issues](https://github.com/PVMouse/PVMouse-3.0-White-Paper/issues) for public discussion, following [CONTRIBUTING.md](CONTRIBUTING.md).
+Methodological feedback, data/model collaboration and joint experiments are welcome. Please use [GitHub Issues](https://github.com/PVMouse3-0/PVMouse-3.0-White-Paper/issues) for public discussion, following [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Author contacts listed in the paper: [dayuanz4005@outlook.com](mailto:dayuanz4005@outlook.com) · [syan0328@outlook.com](mailto:syan0328@outlook.com).
 
