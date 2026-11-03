@@ -5,7 +5,8 @@ authors:
   - family-names: "Zou"
     given-names: "Dayuan"
     affiliation: "Nanjing Singularity Biotech Co., Ltd."
-  - name: "Y. S."
+  - family-names: "S."
+    given-names: "Y."
 repository-code: "https://github.com/PVMouse3-0/PVMouse-3.0-White-Paper"
 url: "https://github.com/PVMouse3-0/PVMouse-3.0-White-Paper"
 abstract: >-
@@ -26,7 +27,8 @@ preferred-citation:
   authors:
     - family-names: "Zou"
       given-names: "Dayuan"
-    - name: "Y. S."
+    - family-names: "S."
+      given-names: "Y."
   institution:
     name: "Nanjing Singularity Biotech Co., Ltd."
   year: 2026
