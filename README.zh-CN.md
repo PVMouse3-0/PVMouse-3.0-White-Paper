@@ -10,6 +10,8 @@
 单位：**Nanjing Singularity Biotech Co., Ltd.**  
 白皮书时间：**2026 年 11 月**，共 85 页。
 
+文档版本：**1.0** · [修订记录](CHANGELOG.md) · [GitHub Releases](https://github.com/PVMouse3-0/PVMouse-3.0-White-Paper/releases)
+
 ## 项目简介
 
 PVMouse 3.0（Panoramic Virtual Mouse V3.0）提出以虚拟小鼠为起点，构建生物世界模型的最小可行产品（MVP）。其核心是用统一的生物状态空间连接分子知识、细胞状态、器官空间结构和器官间相互作用，将当前状态估计、干预响应预测和实验反馈纳入同一研究框架。
@@ -52,7 +54,7 @@ PVMouse 3.0（Panoramic Virtual Mouse V3.0）提出以虚拟小鼠为起点，�
 - 分别评估“利用同一动物已有测量估计缺失观测”和“仅利用查询时可获得的信息预测干预后果”。
 - 以动物为基本独立单位划分数据；同一动物的组织和重复观测进入同一集合。
 - 与简单基线比较，并通过消融、独立数据和不确定性校准检验新增信息与复杂模块的价值。
-- 区分跨年龄人群参考与个体纵向轨迹；横断面年龄数据本身不能直接证明个体动态。
+- 区分跨年龄小鼠群体参考与个体纵向轨迹；横断面年龄数据本身不能直接证明个体动态。
 
 ## 白皮书报告的数据基础
 
@@ -78,7 +80,7 @@ PVMouse 3.0（Panoramic Virtual Mouse V3.0）提出以虚拟小鼠为起点，�
 
 两张精选图使用本地原始 SVG，源文件名与对应页码见 [图示说明](assets/figures/README.md)。
 
-建议引用：Zou, Dayuan, and Y. S. (2026). *PVMouse 3.0: Design and Development Path for a Biological World Model*. Nanjing Singularity Biotech Co., Ltd. November 2026. White paper. 机器可读引用信息见 [CITATION.cff](CITATION.cff)。
+建议引用：Zou, Dayuan, and Y. S. (2026). *PVMouse 3.0: Design and Development Path for a Biological World Model*. Nanjing Singularity Biotech Co., Ltd. November 2026. White paper, version 1.0. 机器可读引用信息见 [CITATION.cff](CITATION.cff)。
 
 欢迎通过 [Issues](https://github.com/PVMouse3-0/PVMouse-3.0-White-Paper/issues) 提供方法讨论、文档勘误和合作建议；具体说明见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 

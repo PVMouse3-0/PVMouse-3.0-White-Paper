@@ -10,6 +10,8 @@
 **Affiliation:** Nanjing Singularity Biotech Co., Ltd.  
 **White paper:** November 2026 · 85 pages
 
+**Document version:** 1.0 · [Changelog](CHANGELOG.md) · [GitHub releases](https://github.com/PVMouse3-0/PVMouse-3.0-White-Paper/releases)
+
 ## Overview
 
 PVMouse 3.0 (Panoramic Virtual Mouse V3.0) is a proposed minimum viable product for a biological world model. It aims to connect molecular knowledge, cell states, spatial organ organization and inter-organ relationships within a shared biological state space, linking state estimation to intervention-response prediction and experimental feedback.
@@ -97,7 +99,7 @@ Companion Markdown files summarize the attached white paper and are not a comple
 
 ## Citation
 
-Zou, Dayuan, and Y. S. (2026). *PVMouse 3.0: Design and Development Path for a Biological World Model*. Nanjing Singularity Biotech Co., Ltd. November 2026. White paper.
+Zou, Dayuan, and Y. S. (2026). *PVMouse 3.0: Design and Development Path for a Biological World Model*. Nanjing Singularity Biotech Co., Ltd. November 2026. White paper, version 1.0.
 
 ```bibtex
 @techreport{zou_ys_pvmouse_2026,
@@ -107,6 +109,7 @@ Zou, Dayuan, and Y. S. (2026). *PVMouse 3.0: Design and Development Path for a B
   year        = {2026},
   month       = nov,
   type        = {White paper},
+  note        = {Version 1.0},
   url         = {https://github.com/PVMouse3-0/PVMouse-3.0-White-Paper}
 }
 ```
