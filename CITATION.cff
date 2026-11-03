@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "Please cite the PVMouse 3.0 white paper using the preferred citation below."
 title: "PVMouse 3.0: Design and Development Path for a Biological World Model"
 version: "1.0"
+date-released: "2026-11-03"
 authors:
   - family-names: "Zou"
     given-names: "Dayuan"
@@ -25,6 +26,7 @@ keywords:
 preferred-citation:
   type: report
   version: "1.0"
+  date-released: "2026-11-03"
   title: "PVMouse 3.0: Design and Development Path for a Biological World Model"
   authors:
     - family-names: "Zou"

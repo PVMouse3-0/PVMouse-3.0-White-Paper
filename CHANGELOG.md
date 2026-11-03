@@ -2,9 +2,9 @@
 
 Version numbers in this file identify editions of the white paper and companion documentation. PVMouse 3.0 is the project name; document version 1.0 identifies the first publication edition.
 
-## [Unreleased]
+## [1.0] - 2026-11-03
 
-Preparation for document version **1.0**, with the planned Git tag `whitepaper-v1.0`.
+Document version **1.0**. Git tag: `whitepaper-v1.0`.
 
 ### Added
 
